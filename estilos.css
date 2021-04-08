@@ -1,0 +1,200 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.header{
+    background-color: #232323;
+    color: white;
+    overflow: auto;
+    border-bottom: 5px solid orangered;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+}
+
+
+.navbar{
+    float: right;
+    list-style: none;
+
+}
+
+.titulo{
+ float: left;   
+ margin: 0;
+ 
+}
+
+.navbar li{
+    float:left;
+    margin-left:10px;
+    text-transform: uppercase;
+}
+
+.destaque{
+    color: orangered;
+}
+
+/*Banner*/
+
+.banner {
+    text-align: center;
+    background-color: red;
+    background-image: url(img/fundo-banner.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 400px;
+}
+
+.banner h1{
+    margin: 0;
+    font-size: 50px;
+    padding-top: 150px;
+}
+
+.banner h3{
+    color:#555555
+}
+
+.saiba-mais button {
+    border: 0;
+    background-color: orangered;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    margin-top:30px;
+    cursor: pointer;
+    
+}
+
+.saiba-mais {
+    text-align: center;
+    background-color: #232323;
+    height: 100px;
+}
+
+/*Misão visão e valores*/
+
+.box img{
+    height: 100px;
+}
+
+.box{
+    /*border: 3px solid red;*/
+    overflow: auto;
+}
+
+.box-item{
+    
+    float: left;
+    text-align: center;
+    width: 27%;
+    padding: 3%;
+}
+
+/*FOOTER*/
+
+.footer{
+    text-align: center;
+    background-color: orangered;
+    height: 90px;
+    
+}
+
+.footer h4{
+    margin: 0;
+    padding-top: 30px;
+    font-weight:100;
+    color:white;
+}
+
+/*PAGINA SOBRE*/
+
+.about_div{
+    align-items: center;
+    width: 100%;
+    text-align: center;   
+}
+
+.about_equipe{
+    background-color: #141414;
+    margin-top:50px ;
+    margin-bottom:50px ;
+    height: 400px;
+    border-radius: 20px;
+    
+}
+
+.about_equipe h1,h2,h3 {
+    margin: 0;
+}
+
+.about_esquerdo{
+    float: left;
+    height: 100% ;
+    width: 500px;
+    text-align: center;
+    
+    
+}
+
+.about_foto{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 245px;
+    height: 245px;
+    margin-top: 11%;
+    text-align: center;
+    border-radius: 5px 5px 0 5px 5px;
+    
+    
+}
+
+.about_foto h1{
+    margin: 0;
+}
+
+.foto_perfil{
+    margin-top: 13px;   
+}
+
+.cargo{
+    background-color: white;
+    margin: auto;
+    width: 380px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.about_direito{
+    color: white;
+    float: right;
+    height: 100%;
+    width: 480px;
+    text-align: center;
+    margin-top: 35px;
+    padding-right: 60px;
+    font-size: 11px;
+    text-align: justify;
+    
+}
+
+.about_direito .container{
+    width: 100%;
+    margin: auto;
+    
+    
+}
+
+
+
+
+
+
